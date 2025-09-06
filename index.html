@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziad Elsayed - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body data-theme="dark">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2 data-en="Ziad Elsayed" data-ar="زياد السيد">Ziad Elsayed</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-en="Home" data-ar="الرئيسية">الرئيسية</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-en="About" data-ar="نبذة عني">نبذة عني</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-en="Skills" data-ar="المهارات">المهارات</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-en="Projects" data-ar="المشاريع">المشاريع</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link" data-en="Experience" data-ar="الخبرة">الخبرة</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-en="Contact" data-ar="التواصل">التواصل</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-toggle" title="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="lang-toggle" class="lang-toggle" title="Toggle Language">
+                    <span class="lang-text">English</span>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title" data-en="Hello, I'm <span class='highlight'>Ziad Elsayed</span>" data-ar="مرحباً، أنا <span class='highlight'>زياد السيد</span>">Hello, I'm <span class="highlight">Ziad Elsayed</span></h1>
+                    <p class="hero-subtitle" data-en="AI Engineer | Machine Learning Developer" data-ar="مهندس ذكاء اصطناعي | مطور تعلم آلة">AI Engineer | Machine Learning Developer</p>
+                    <p class="hero-description" data-en="Transforming ideas into intelligent solutions through cutting-edge AI and machine learning technologies. I build systems that learn, adapt, and deliver exceptional results" data-ar="أحول الأفكار إلى حلول ذكية من خلال تقنيات الذكاء الاصطناعي وتعلم الآلة المتطورة. أبني أنظمة تتعلم وتتكيف وتحقق نتائج استثنائية">Transforming ideas into intelligent solutions through cutting-edge AI and machine learning technologies. I build systems that learn, adapt, and deliver exceptional results</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary" data-en="View My Work" data-ar="استعرض أعمالي">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary" data-en="Contact Me" data-ar="تواصل معي">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="ziadelsayed.jpg" alt="Ziad Elsayed" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-en="About Me" data-ar="نبذة عني">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-en="Fourth-year Artificial Intelligence student at Helwan International Technological University (GPA 3.4) with advanced expertise in Machine Learning, Deep Learning, NLP, and Computer Vision." data-ar="طالب في السنة الرابعة بتخصص الذكاء الاصطناعي في جامعة حلوان التكنولوجية الدولية (معدل 3.4) مع خبرة متقدمة في تعلم الآلة والتعلم العميق ومعالجة اللغات الطبيعية ورؤية الحاسوب.">Fourth-year Artificial Intelligence student at Helwan International Technological University (GPA 3.4) with advanced expertise in Machine Learning, Deep Learning, NLP, and Computer Vision.</p>
+                    <p data-en="Active freelancer on platforms like Freelancer.com, Upwork, and Mostaql, delivering AI and machine learning solutions to clients worldwide." data-ar="فريلانسر نشط على منصات مثل Freelancer.com وUpwork ومستقل، أقدم حلول الذكاء الاصطناعي وتعلم الآلة للعملاء حول العالم.">Active freelancer on platforms like Freelancer.com, Upwork, and Mostaql, delivering AI and machine learning solutions to clients worldwide.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>2</h3>
+                            <p data-en="Years Experience" data-ar="سنوات خبرة">Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>15+</h3>
+                            <p data-en="Projects Completed" data-ar="مشروع مكتمل">Projects Completed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="ziadelsayed.jpg" alt="Ziad Elsayed" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-en="My Skills" data-ar="المهارات التقنية">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <p data-en="Advanced programming for AI and machine learning applications" data-ar="برمجة متقدمة لتطبيقات الذكاء الاصطناعي وتعلم الآلة">Advanced programming for AI and machine learning applications</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>TensorFlow</h3>
+                    <p data-en="Deep learning framework for building neural networks" data-ar="إطار عمل التعلم العميق لبناء الشبكات العصبية">Deep learning framework for building neural networks</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>PyTorch</h3>
+                    <p data-en="Dynamic neural network framework for research and production" data-ar="إطار عمل الشبكات العصبية الديناميكية للبحث والإنتاج">Dynamic neural network framework for research and production</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>HuggingFace</h3>
+                    <p data-en="Natural language processing and transformer models" data-ar="معالجة اللغات الطبيعية ونماذج المحولات">Natural language processing and transformer models</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>OpenCV</h3>
+                    <p data-en="Computer vision and image processing applications" data-ar="تطبيقات رؤية الحاسوب ومعالجة الصور">Computer vision and image processing applications</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <p data-en="Building intelligent systems that learn from data" data-ar="بناء أنظمة ذكية تتعلم من البيانات">Building intelligent systems that learn from data</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Deep Learning</h3>
+                    <p data-en="Advanced neural networks for complex pattern recognition" data-ar="الشبكات العصبية المتقدمة لتمييز الأنماط المعقدة">Advanced neural networks for complex pattern recognition</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Computer Vision</h3>
+                    <p data-en="Image analysis and visual recognition systems" data-ar="تحليل الصور وأنظمة التعرف البصري">Image analysis and visual recognition systems</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Communication</h3>
+                    <p data-en="Effective communication and client interaction skills" data-ar="مهارات التواصل الفعال والتفاعل مع العملاء">Effective communication and client interaction skills</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Leadership</h3>
+                    <p data-en="Team leadership and project management capabilities" data-ar="قيادة الفريق وقدرات إدارة المشاريع">Team leadership and project management capabilities</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-en="Some of My Projects" data-ar="بعض من مشاريعي">Some of My Projects</h2>
+            
+            <!-- AI Projects Section -->
+            <div class="project-category">
+                <h3 class="category-title" data-en="AI Projects" data-ar="مشاريع الذكاء الاصطناعي">AI Projects</h3>
+                <div class="projects-list">
+                    <div class="project-item">
+                        <h4>Heal Me Robot (IoT + ML)</h4>
+                        <p data-en="Developed a robot for risk detection using ML algorithms." data-ar="تطوير روبوت لاكتشاف المخاطر باستخدام خوارزميات التعلم الآلي.">Developed a robot for risk detection using ML algorithms.</p>
+                    </div>
+                    <div class="project-item">
+                        <h4>House Price Prediction</h4>
+                        <p data-en="Built regression models achieving accurate price predictions." data-ar="بناء نماذج انحدار لتحقيق تنبؤات دقيقة للأسعار.">Built regression models achieving accurate price predictions.</p>
+                    </div>
+                    <div class="project-item">
+                        <h4>Sleep Rate Classification</h4>
+                        <p data-en="Designed a classifier to analyze sleep patterns." data-ar="تصميم مصنف لتحليل أنماط النوم.">Designed a classifier to analyze sleep patterns.</p>
+                    </div>
+                    <div class="project-item">
+                        <h4>Risk Classification Model</h4>
+                        <p data-en="Developed a supervised ML model for risk levels." data-ar="تطوير نموذج تعلم آلي مُشرف لمستويات المخاطر.">Developed a supervised ML model for risk levels.</p>
+                    </div>
+                    <div class="project-item">
+                        <h4>Sentiment Analysis (NLP)</h4>
+                        <p data-en="Classified Arabic sentiment using transformer models." data-ar="تصنيف المشاعر العربية باستخدام نماذج المحولات.">Classified Arabic sentiment using transformer models.</p>
+                    </div>
+                    <div class="project-item">
+                        <h4>Image Classification (CV)</h4>
+                        <p data-en="Implemented CNN models for multi-class classification." data-ar="تنفيذ نماذج CNN للتصنيف متعدد الفئات.">Implemented CNN models for multi-class classification.</p>
+                    </div>
+                    <div class="project-item">
+                        <h4>Robotic Arm + YOLO + DeepSeek AI</h4>
+                        <p data-en="Built a hardware control system for robotic arms using object detection and natural language commands." data-ar="بناء نظام تحكم أجهزة للأذرع الروبوتية باستخدام كشف الكائنات وأوامر اللغة الطبيعية.">Built a hardware control system for robotic arms using object detection and natural language commands.</p>
+                    </div>
+                    <div class="project-item">
+                        <h4>Face Recognition & Filters App</h4>
+                        <p data-en="Developed an Android app using Flutter + Flask + CV for real-time face recognition." data-ar="تطوير تطبيق أندرويد باستخدام Flutter + Flask + CV للتعرف على الوجوه في الوقت الفعلي.">Developed an Android app using Flutter + Flask + CV for real-time face recognition.</p>
+                    </div>
+                    <div class="project-item">
+                        <h4>Green Vision (Deep Learning + Sustainability)</h4>
+                        <p data-en="Built a DL model for desertification treatment and land reclamation in Egypt." data-ar="بناء نموذج تعلم عميق لعلاج التصحر واستصلاح الأراضي في مصر.">Built a DL model for desertification treatment and land reclamation in Egypt.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Web & RPA Projects Section -->
+            <div class="project-category">
+                <h3 class="category-title" data-en="Web & RPA Projects" data-ar="مشاريع الويب والأتمتة">Web & RPA Projects</h3>
+                <div class="projects-list">
+                    <div class="project-item">
+                        <h4>Biotrek (NASA Space Apps)</h4>
+                        <p data-en="Built an educational website for biological experiments; earned 8th place in regional hackathon." data-ar="بناء موقع تعليمي للتجارب البيولوجية؛ حصل على المركز الثامن في الهاكاثون الإقليمي.">Built an educational website for biological experiments; earned 8th place in regional hackathon.</p>
+                    </div>
+                    <div class="project-item">
+                        <h4>Gaming Impact Study (UiPath RPA)</h4>
+                        <p data-en="Automated analysis on gaming's effects on youth." data-ar="تحليل آلي لتأثيرات الألعاب على الشباب.">Automated analysis on gaming's effects on youth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-en="Professional Experience" data-ar="الخبرة المهنية">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-en="Freelance Machine Learning Developer" data-ar="مطور تعلم آلة مستقل">Freelance Machine Learning Developer</h3>
+                        <h4 data-en="UpWork" data-ar="أب وورك">UpWork</h4>
+
+                        <p data-en="Delivered ML solutions for classification, regression, and NLP applications. Maintained 95%+ client satisfaction rate across multiple projects." data-ar="تقديم حلول تعلم الآلة للتصنيف والانحدار وتطبيقات معالجة اللغات الطبيعية. الحفاظ على معدل رضا العملاء 95%+ عبر مشاريع متعددة.">Delivered ML solutions for classification, regression, and NLP applications. Maintained 95%+ client satisfaction rate across multiple projects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-en="Freelance Machine Learning Developer" data-ar="مطور تعلم آلة مستقل">Freelance Machine Learning Developer</h3>
+                        <h4 data-en="Freelancer" data-ar="فريلانسر">Freelancer</h4>
+                        <p data-en="Delivered ML solutions for classification, regression, and NLP applications. Maintained 95%+ client satisfaction rate across multiple projects." data-ar="تقديم حلول تعلم الآلة للتصنيف والانحدار وتطبيقات معالجة اللغات الطبيعية. الحفاظ على معدل رضا العملاء 95%+ عبر مشاريع متعددة.">Delivered ML solutions for classification, regression, and NLP applications. Maintained 95%+ client satisfaction rate across multiple projects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-en="Freelance Machine Learning Developer" data-ar="مطور تعلم آلة مستقل">Freelance Machine Learning Developer</h3>
+                        <h4 data-en="Mostaql" data-ar="مستقل">Mostaql</h4>
+                        <p data-en="Delivered ML solutions for classification, regression, and NLP applications. Maintained 95%+ client satisfaction rate across multiple projects." data-ar="تقديم حلول تعلم الآلة للتصنيف والانحدار وتطبيقات معالجة اللغات الطبيعية. الحفاظ على معدل رضا العملاء 95%+ عبر مشاريع متعددة.">Delivered ML solutions for classification, regression, and NLP applications. Maintained 95%+ client satisfaction rate across multiple projects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-en="Call Center Representative" data-ar="ممثل خدمة عملاء">Call Center Representative</h3>
+                        <h4 data-en="Vodafone Egypt" data-ar="فودافون مصر">Vodafone Egypt</h4>
+
+                        <p data-en="Strengthened interpersonal and stress management skills. Enhanced ability to explain technical solutions to non-technical stakeholders." data-ar="تعزيز مهارات التعامل مع الآخرين وإدارة الضغوط. تحسين القدرة على شرح الحلول التقنية لأصحاب المصلحة غير التقنيين.">Strengthened interpersonal and stress management skills. Enhanced ability to explain technical solutions to non-technical stakeholders.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-en="Contact Me" data-ar="تواصل معي">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-en="Let's Connect" data-ar="لنتواصل">Let's Connect</h3>
+                    <p data-en="Feel free to contact me to discuss your next project or to collaborate on new job opportunities." data-ar="أهلاً بك للتواصل معي لمناقشة مشروعك القادم أو للتعاون في فرص عمل جديدة.">Feel free to contact me to discuss your next project or to collaborate on new job opportunities.</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>ziadelja12@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>01276044436</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-en="Cairo, Egypt" data-ar="القاهرة، مصر">Cairo, Egypt</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ziad-elsayed-55914324a/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/ziadjamikka" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://x.com/jamikka10?t=wgyzMuh405VXa_A77BaoUg&s=09" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="freelance-platforms">
+                    <h3 data-en="My Freelance Accounts" data-ar="حساباتي على مواقع العمل الحر">My Freelance Accounts</h3>
+                    <div class="platforms-container">
+                        <div class="platform-card">
+                            <div class="platform-header">
+                                <h4>Upwork</h4>
+                                <span class="platform-badge">Top Rated</span>
+                            </div>
+                            <p class="platform-description" data-en="Machine Learning & AI Development Specialist" data-ar="متخصص في تطوير التعلم الآلي والذكاء الاصطناعي">Machine Learning & AI Development Specialist</p>
+
+                            <a href="https://www.upwork.com/freelancers/~01e2d863ef797be2ed?mp_source=share" target="_blank" class="platform-btn" data-en="View Profile" data-ar="عرض الملف الشخصي">View Profile</a>
+                        </div>
+                        
+                        <div class="platform-card">
+                            <div class="platform-header">
+                                <h4 data-en="Mostaql" data-ar="مستقل">مستقل</h4>
+                                <span class="platform-badge" data-en="Verified" data-ar="موثق">موثق</span>
+                            </div>
+                            <p class="platform-description" data-en="AI & Data Science Solutions" data-ar="حلول الذكاء الاصطناعي وعلوم البيانات">حلول الذكاء الاصطناعي وعلوم البيانات</p>
+
+                            <a href="https://mostaql.com/u/20ziad_elsayed" target="_blank" class="platform-btn" data-en="View Profile" data-ar="عرض الملف الشخصي">عرض الملف الشخصي</a>
+                        </div>
+                        
+                        <div class="platform-card">
+                            <div class="platform-header">
+                                <h4>Freelancer.com</h4>
+                                <span class="platform-badge">Preferred</span>
+                            </div>
+                            <p class="platform-description" data-en="Python & Machine Learning Expert" data-ar="خبير في Python والتعلم الآلي">Python & Machine Learning Expert</p>
+
+                            <a href="https://www.freelancer.com/u/ziade83" target="_blank" class="platform-btn" data-en="View Profile" data-ar="عرض الملف الشخصي">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p data-en="&copy; 2025 Ziad Elsayed. All rights reserved." data-ar="&copy; 2025 زياد السيد. جميع الحقوق محفوظة.">&copy; 2025 Ziad Elsayed. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="ZIAD ELSAYED-CV.pdf" target="_blank" data-en="Download my CV" data-ar="Download my CV">Download my CV</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
