@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website showcasing my work as an AI Engineer and Machine Learning Developer.
 
-## 🌟 Features
+##  Features
 
 - **Responsive Design**: Optimized for all devices (desktop, tablet, mobile)
 - **Dark/Light Theme**: Toggle between dark and light modes
@@ -11,7 +11,7 @@ A modern, responsive personal portfolio website showcasing my work as an AI Engi
 - **Interactive Elements**: Hover effects, smooth scrolling, and dynamic content
 - **Performance Optimized**: Fast loading with lazy loading and optimized assets
 
-## 🚀 Technologies Used
+##  Technologies Used
 
 - **HTML5**: Semantic markup and modern structure
 - **CSS3**: Advanced styling with CSS Grid, Flexbox, and animations
@@ -19,7 +19,7 @@ A modern, responsive personal portfolio website showcasing my work as an AI Engi
 - **Font Awesome**: Professional icons
 - **Google Fonts**: Cairo font family for Arabic/English support
 
-## 📱 Sections
+##  Sections
 
 1. **Hero Section**: Introduction with professional photo
 2. **About**: Personal background and statistics
@@ -28,7 +28,7 @@ A modern, responsive personal portfolio website showcasing my work as an AI Engi
 5. **Experience**: Professional experience timeline
 6. **Contact**: Contact information and freelance platform links
 
-## 🎯 Key Projects Highlighted
+##  Key Projects Highlighted
 
 - **Heal Me Robot**: IoT + ML risk detection system
 - **House Price Prediction**: Regression models for accurate predictions
@@ -37,11 +37,11 @@ A modern, responsive personal portfolio website showcasing my work as an AI Engi
 - **Robotic Arm Control**: YOLO + DeepSeek AI integration
 - **Green Vision**: Deep learning for desertification treatment
 
-## 🌐 Live Demo
+##  Live Demo
 
 Visit the live portfolio: [https://ziadjamikka.github.io/portfolio](https://ziadjamikka.github.io/portfolio)
 
-## 📧 Contact
+##  Contact
 
 - **Email**: ziadelja12@gmail.com
 - **Phone**: 01276044436
@@ -49,22 +49,23 @@ Visit the live portfolio: [https://ziadjamikka.github.io/portfolio](https://ziad
 - **LinkedIn**: [ziad-elsayed-55914324a](https://www.linkedin.com/in/ziad-elsayed-55914324a/)
 - **GitHub**: [ziadjamikka](https://github.com/ziadjamikka)
 
-## 💼 Freelance Platforms
+##  Freelance Platforms
 
 - **Upwork**: [Top Rated ML Developer](https://www.upwork.com/freelancers/~01e2d863ef797be2ed)
 - **Mostaql**: [AI & Data Science Specialist](https://mostaql.com/u/20ziad_elsayed)
 - **Freelancer.com**: [Python & ML Expert](https://www.freelancer.com/u/ziade83)
 
-## 🎓 Education
+##  Education
 
 - **Current**: 4th year Artificial Intelligence student at Helwan International Technological University
 - **GPA**: 3.4
 - **Specialization**: Machine Learning, Deep Learning, NLP, Computer Vision
 
-## 📄 Resume
+##  Resume
 
 Download my CV: [ZIAD ELSAYED-CV.pdf](ZIAD%20ELSAYED-CV.pdf)
 
 ---
 
 © 2025 Ziad Elsayed. All rights reserved.
+
