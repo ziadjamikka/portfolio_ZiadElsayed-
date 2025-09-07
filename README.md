@@ -39,7 +39,7 @@ A modern, responsive personal portfolio website showcasing my work as an AI Engi
 
 ##  Live Demo
 
-Visit the live portfolio: [https://ziadjamikka.github.io/portfolio](https://ziadjamikka.github.io/portfolio)
+Visit the live portfolio: [https://ziadjamikka.github.io/portfolio](https://ziadjamikka.github.io/portfolio_ZiadElsayed-/)
 
 ##  Contact
 
@@ -68,4 +68,5 @@ Download my CV: [ZIAD ELSAYED-CV.pdf](ZIAD%20ELSAYED-CV.pdf)
 ---
 
 © 2025 Ziad Elsayed. All rights reserved.
+
 
